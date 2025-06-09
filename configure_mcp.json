@@ -1,0 +1,34 @@
+{
+  "mcpServers": {
+    "weather": {
+    "command": "uv",
+    "args": [
+        "run",
+        "--with",
+        "mcp[cli]",
+        "mcp",
+        "run",
+        "D:\\LLM_Projects\\Agent-With-Custom-MCP-Server\\weather_server.py"
+    ]
+},
+    "abuseipdb": {
+            "command": "uv",
+            "args": [
+                "run",
+                "--with",
+                "mcp[cli]",
+                "mcp",
+                "run",
+                "D:\\LLM_Projects\\Agent-With-Custom-MCP-Server\\abuseipdb_server.py"
+            ]
+        },
+         "sqlite": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-sqlite",
+      "--db-path",
+      "D:\\LLM_Projects\\Agent-With-Custom-MCP-Server\\database\\test.db"
+    ]
+  }
+  }
+}
