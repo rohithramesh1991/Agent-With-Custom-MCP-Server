@@ -19,3 +19,5 @@ To run this project, you must add your API keys to a `.env` file in the root dir
 - `ABUSEIPDB_API_KEY` — for checking IP reputation from [abuseipdb](https://www.abuseipdb.com/)
 
 - `WEATHERMAP_API_KEY` — for weather data from [OpenWeatherMap](https://home.openweathermap.org/users/sign_in)
+
+👉 You can read more about this on my [Medium](https://medium.com/@rohithramesh1991/how-to-build-and-integrate-mcp-servers-for-a-versatile-chat-agent-cb0ea07b2b89) page.
