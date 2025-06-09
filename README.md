@@ -5,17 +5,17 @@ This project demonstrates a powerful multi-tool chat assistant built using the M
 
 Custom MCP servers for real-time API tools like weather information and IP reputation checks.
 
-- **A prebuilt SQLite MCP server to perform live database queries.
+- A prebuilt SQLite MCP server to perform live database queries.
 
-- **A user-friendly Gradio chat interface for seamless conversational interaction.
+- A user-friendly Gradio chat interface for seamless conversational interaction.
 
-- **By combining these components, the assistant can handle diverse queries—from database management and API calls to fetching real-time data—all within a single chat session.
+- By combining these components, the assistant can handle diverse queries—from database management and API calls to fetching real-time data—all within a single chat session.
 
 ### Important: API Keys and Environment Variables
 To run this project, you must add your API keys to a `.env` file in the root directory:
 
-- **`GROQ_API_KEY` — for the Groq language model access from [Groq](https://groq.com/)
+- `GROQ_API_KEY` — for the Groq language model access from [Groq](https://groq.com/)
 
-- **`ABUSEIPDB_API_KEY` — for checking IP reputation from [abuseipdb](https://www.abuseipdb.com/)
+- `ABUSEIPDB_API_KEY` — for checking IP reputation from [abuseipdb](https://www.abuseipdb.com/)
 
-- **`WEATHERMAP_API_KEY` — for weather data from [OpenWeatherMap](https://home.openweathermap.org/users/sign_in)
+- `WEATHERMAP_API_KEY` — for weather data from [OpenWeatherMap](https://home.openweathermap.org/users/sign_in)
